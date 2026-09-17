@@ -23,13 +23,21 @@
             background-color: lightgray;
         }
         thead, tfoot {
-            background-color: darkgray;
+            background-color: rgb(73, 72, 72);
             color: white;
+        }
+        thead tr th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(73, 72, 72) b;
         }
         td.num {
             text-align: right ;
         }
-        tbody tr:nth-child(even){
+        tbody tr:nth-child(odd){ /* 2n-1 */
+            background-color: white;
+        }
+        tbody tr:nth-child(even){ /* 2n */
             background-color: lightgray;
         }
     </style>
