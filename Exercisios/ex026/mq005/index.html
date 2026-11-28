@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Quary</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=menu" />
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu  id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Quaries</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam beatae vel ipsa corrupti. Incidunt
+                tempora officiis consequatur excepturi dolorum deserunt officia vero ullam cupiditate sapiente,
+                quibusdam odit ratione dicta amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                doloribus ab similique consequatur! Doloribus nemo culpa sequi velit nulla aliquam porro ex iste facere
+                omnis vero nisi quos, delectus illum.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti id quaerat dolores veniam, at totam
+                ducimus voluptatem non nihil eius incidunt officia esse similique eveniet perferendis qui obcaecati!
+                Asperiores, quo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae odit laudantium
+                esse aliquam at possimus ducimus? Facilis voluptate officiis aperiam corporis qui natus, maxime
+                provident magnam rerum, aut ipsum ab?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deserunt animi est, vero, incidunt
+                quae pariatur quis earum sint laudantium minus? Alias fuga aperiam quae fugit, veniam similique
+                excepturi provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, expedita nihil? Ipsam
+                fuga exercitationem iure debitis aspernatur repellendus doloribus eveniet, velit vitae, sunt voluptas
+                omnis quos modi ex totam a.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur rerum nesciunt cumque
+                necessitatibus aliquid velit nihil tempora aut omnis optio? Ratione, voluptatum? Ducimus praesentium
+                similique expedita accusamus possimus dolore eum!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>
